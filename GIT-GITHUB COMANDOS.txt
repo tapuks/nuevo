@@ -1,0 +1,26 @@
+//GIT
+
+
+ruta de tus ficheros y haces:  git init
+
+git status : ves los archivos subidos y que te quedan por subir
+
+git add app.html : añades un archivo para subir     (git add .   añades todos)
+
+git commit -m "version 1 o la descripcion que quieras" : subes el archivo
+
+en editor vi apretar  escape y escribir :wq (para salir)
+
+git log : ves los commit que has hecho
+
+git branch : ver las ramas que tienes
+
+git branch nuevaRama : creas una rama
+
+git checkout nueva : cambias a la rama nueva
+
+//GITHUB
+
+creas repositorio nuevo en la web
+copias en git el comando que se te crea: $ git remote add origin https://github.com/tapuks/nuevo.git 
+$ git push -u origin master  : haces el push para subir el archivo
